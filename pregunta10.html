@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ginkana de Aroche - Pregunta 10</title>
+	<link rel="stylesheet" href="preguntas.css" />
+	
+</head>
+<body>
+
+	<p class="tinicio"><a href="index.html" class="url1">Inicio</a></p>
+	
+<form onsubmit="return validarRespuesta()" class="f1">
+<br>
+  <label for="respuesta">¿Cuál es la sopa típica de Aroche?
+</label>
+  <br>
+  <input type="text" id="respuesta" name="respuesta">
+  <br><br>
+  <input type="submit" value="Enviar">
+</form>
+
+<script>
+  function validarRespuesta() {
+    var respuestaIngresada = document.getElementById('respuesta').value.toLowerCase(); // Convertir la respuesta a minúsculas para comparación
+    var palabrasClave = ["la sopa de peso","sopa de peso"]; // Definir las palabras clave en minúsculas
+    var respuestaCorrecta = "sopa de peso"; // Respuesta correcta en minúsculas
+    if (palabrasClave.some(palabra => respuestaIngresada.includes(palabra))) {
+      window.location.href = "pregunta10-10.html"; // Redirigir a la siguiente página si hay palabras clave
+    } else if (respuestaIngresada === respuestaCorrecta) {
+      window.location.href = "pregunta10-10.html"; // Redirigir a la siguiente página si la respuesta es correcta
+    } else {
+      window.location.href = "respuestaIncorrecta.html"; // Redirigir a la página incorrecta si no hay palabras clave ni respuesta correcta
+    }
+    return false; // Evita que el formulario se envíe de forma predeterminada
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+	background-image: url('img/aroche.jpg');
+	 background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.tinicio{
+	padding-top: 2%;	
+	margin-top: -2%;
+	margin-left: -2%;
+	margin-right: -2%;
+	text-align: center;
+	border-style: hidden;
+	background-color: #EF4825;
+	font-family: Helvetica;
+	font-weight: bold;
+
+}
+.url1{
+	color: #000000;
+}
+.url2{
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	padding: 1%;
+}
+
+.f1{
+	background-image: url('img/papel.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 17px;
+	margin-left: 17%;
+	margin-right: 17%;
+	padding: 3%;
+}
+.f1-1{
+	background-image: url('img/papel.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	font-family: Helvetica;
+	font-size: 17px;
+	margin-left: 17%;
+	margin-right: 17%;
+	padding: 3%;
+}
+.f2{
+	text-align: center;
+	padding-left: 45%;
+	font-family: Helvetica;
+	font-size: 17px;
+	margin-left: 17%;
+	margin-right: 17%;
+	padding: 3%;
+}
+.f3{
+	background-image: url('img/papel.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 17px;
+	margin-left: 32%;
+	margin-right: 17%;
+	padding: 3%;
+}
+
+.center{
+	text-align: center;
+	padding-left:45%;
+}
+
+
+.boton-circular {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; 
+  background-color: #EF4825;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 90%;
+}

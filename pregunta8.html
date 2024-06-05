@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ginkana de Aroche - Pregunta 8</title>
+	<link rel="stylesheet" href="preguntas.css" />
+	
+</head>
+<body>
+
+	<p class="tinicio"><a href="index.html" class="url1">Inicio</a></p>
+	
+
+<form onsubmit="return validarRespuesta()" class="f1">
+  <label for="respuesta">¿A quién estaba dedicado el templo del foro de turobriga?</label>
+  <br>
+  <select id="respuesta" name="respuesta">
+	<option value="otra">&nbsp;</option>
+    <option value="otro">Apolo</option>
+	<option value="si">Diana</option>
+	<option value="otra">Ambos</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Enviar">
+</form>
+
+<script>
+  function validarRespuesta() {
+    var respuestaIngresada = document.getElementById('respuesta').value.toLowerCase();
+    var respuestaCorrecta = "si";
+    if (respuestaIngresada === respuestaCorrecta) {
+      window.location.href = "pregunta8-8.html";
+    } else {
+      window.location.href = "respuestaIncorrecta.html";
+    }
+    return false;
+  }
+</script>
+
+</body>
+</html>

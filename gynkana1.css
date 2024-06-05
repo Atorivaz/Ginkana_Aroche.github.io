@@ -1,0 +1,66 @@
+body{
+	background-image: url('img/aroche.jpg');
+	 background-size: 110% auto;
+	background-repeat: no-repeat;
+}
+
+.t1{
+	text-align: center;
+	border-style: hidden;
+	background-color: #EF4825;
+	padding-top: 5%;
+	margin-top: -3%;
+	margin-left: -3%;
+	margin-right: -3%;
+	padding-bottom: 3%;
+	font-family: Helvetica;
+}
+
+.tinicio{
+	margin-top: -3%; 
+	margin-left: -2%;
+	margin-right: -2%;
+	text-align: center;
+	border-style: hidden;
+	background-color: #EF4825;
+	font-family: Helvetica;
+	font-weight: bold;
+
+}
+.url1{
+	color: #000000;
+}
+
+.p1{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 15px;
+	color: #000000;
+	border: 3px;
+	border-style:ridge;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	background-color: #EF4825; 
+	border-color: #ffffff;
+	line-height: 20px;
+}
+
+.comenzar{
+	font-weight: bold;
+	font-family: Helvetica;
+	text-align: center;
+	background-color: #EF4825;
+	border: 1px;
+	border-style: dotted;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.url2{
+	color: #000000;
+	text-decoration: none;
+}
